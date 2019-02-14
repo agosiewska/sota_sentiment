@@ -212,9 +212,9 @@ def test_embeddings(file, file_type):
                                      one_hot=True,
                                      rep=word_reps)
 
-    twitter_dataset = Semeval_Dataset('datasets/twitter',
-                                                    vecs._w2idx, rep=word_reps,
-                                                    one_hot=True)
+#     twitter_dataset = Semeval_Dataset('datasets/twitter',
+#                                                     vecs._w2idx, rep=word_reps,
+#                                                     one_hot=True)
 
     sentube_auto_dataset = General_Dataset('datasets/SenTube/auto',
                                            vecs._w2idx, rep=word_reps,
